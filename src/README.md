@@ -40,7 +40,7 @@ We can do that by spawning an entity with the `Camera3d` component and a `Transf
 
 Now that we can see the (empty) world, we can load the bowl 3d model I generously provide by using the `SceneRoot` component like so:
 ```rust
-    SceneRoot(asset_server.load(GltfAssetLabel::Scene(0).from_asset("bowl/bowl.glb"))),
+    SceneRoot(asset_server.load(GltfAssetLabel::Scene(0).from_asset("bowl/bowl.glb"))), //Don't forget to add asset_server: Res<AssetServer> to your system parameters
 ```
 
 By default meshes do not interact with the physics engine, so we need to add collider and RigidBody components
