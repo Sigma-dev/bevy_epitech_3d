@@ -24,7 +24,7 @@ If you don't know what Fruit Mountain is, it's a simple physics game where you t
 
 The goal is to get the biggest fruit without any fruit falling out of the bowl
 
-![Fruit](../images/fruit.png "Fruit")
+![Fruit](images/fruit.png "Fruit")
 
 We will start by setting up the bowl, the camera and some lighting.
 
